@@ -292,36 +292,3 @@ filter="tcp"
 ```
 
 This captures TCP packets only. Scapy uses BPF-style filters, similar to tools like tcpdump and Wireshark.
-
-## Ethical Usage Disclaimer
-
-This project is for education, portfolio building, and authorized security learning only.
-
-Use it only on:
-
-- your own computer
-- your own lab network
-- networks where you have clear written permission
-
-Do not use this tool to monitor other people's traffic without permission. Unauthorized packet sniffing may violate privacy laws, workplace policies, school policies, or computer misuse laws.
-
-## Portfolio Notes
-
-This project demonstrates practical beginner-to-intermediate cybersecurity skills:
-
-- Python scripting
-- packet analysis
-- protocol identification
-- logging
-- command-line tooling
-- basic detection logic
-- ethical security documentation
-
-Possible future improvements:
-
-- export logs to CSV or JSON
-- add DNS detection
-- add HTTP host extraction
-- create a dashboard
-- add unit tests for protocol detection logic
-- integrate with Wireshark-compatible packet capture files
